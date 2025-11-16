@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroCav HydroLoop - Sustainable Future</title>
+    <style>
+        @page {{ size: letter; margin: 0.5in; }}
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Arial', sans-serif;
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: linear-gradient(to bottom, #e8f5e9, white);
+            color: #1a1a1a;
+        }}
+        .page {{
+            width: 100%;
+            height: 100%;
+            padding: 0.5in;
+        }}
+        header {{
+            text-align: center;
+            margin-bottom: 18px;
+        }}
+        .logo {{
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }}
+        .eco-badge {{
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }}
+        .hero-green {{
+            background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+        }}
+        .hero-green h1 {{
+            font-size: 38px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }}
+        .hero-green p {{
+            font-size: 15px;
+            line-height: 1.5;
+        }}
+        .content-grid {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-bottom: 15px;
+        }}
+        .product-eco {{
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+        }}
+        .product-img {{
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(46,125,50,0.3);
+        }}
+        .eco-overlay {{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(46,125,50,0.95), transparent);
+            color: white;
+            padding: 20px;
+        }}
+        .eco-overlay h3 {{
+            font-size: 18px;
+            margin-bottom: 5px;
+        }}
+        .eco-overlay p {{
+            font-size: 11px;
+        }}
+        .benefits-panel {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }}
+        .benefit-item {{
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #4caf50;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }}
+        .benefit-item h4 {{
+            color: #2e7d32;
+            font-size: 14px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        .benefit-item p {{
+            font-size: 11px;
+            line-height: 1.4;
+            color: #555;
+        }}
+        .icon {{
+            font-size: 20px;
+        }}
+        .impact-metrics {{
+            background: #1a1a1a;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }}
+        .metric {{
+            text-align: center;
+        }}
+        .metric-value {{
+            font-size: 32px;
+            font-weight: bold;
+            color: #4caf50;
+            display: block;
+            margin-bottom: 6px;
+        }}
+        .metric-label {{
+            font-size: 11px;
+            color: #ccc;
+            text-transform: uppercase;
+        }}
+        @media print {{
+            body {{ print-color-adjust: exact; -webkit-print-color-adjust: exact; }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <img src="data:image/png;base64,{logo_b64}" alt="HydroCav Logo" class="logo">
+            <div class="eco-badge">🌿 Eco-Friendly Technology</div>
+        </header>
+
+        <div class="hero-green">
+            <h1>Chemical-Free Pool Revolution</h1>
+            <p>World's first genuinely chemical-free saltwater pool experience through controlled HydroDynamic Cavitation</p>
+        </div>
+
+        <div class="content-grid">
+            <div class="product-eco">
+                <img src="data:image/jpeg;base64,{product_b64}" alt="HydroLoop System" class="product-img">
+                <div class="eco-overlay">
+                    <h3>Sustainable Design</h3>
+                    <p>Engineered for longevity and minimal environmental impact</p>
+                </div>
+            </div>
+
+            <div class="benefits-panel">
+                <div class="benefit-item">
+                    <h4><span class="icon">♻️</span> 75-90% Less Chemicals</h4>
+                    <p>Dramatic reduction in chemical additives means fewer harmful substances entering our water systems and ecosystems.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4><span class="icon">🌊</span> Pristine Water Quality</h4>
+                    <p>Perfectly balanced water through intelligent flow management, eliminating need for harsh chemical treatments.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4><span class="icon">🛡️</span> Zero Harmful Gases</h4>
+                    <p>Eliminates dangerous chlorine and trichloramine gas formation, protecting both people and planet.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4><span class="icon">🌱</span> Long-Term Durability</h4>
+                    <p>Premium materials ensure extended lifespan, reducing replacement waste and resource consumption.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="impact-metrics">
+            <div class="metric">
+                <span class="metric-value">75-90%</span>
+                <span class="metric-label">Chemical Reduction</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Chemical-Free Option</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value">Zero</span>
+                <span class="metric-label">Toxic Gas Emission</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

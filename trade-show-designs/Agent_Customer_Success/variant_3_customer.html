@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroCav HydroLoop - Customer Excellence</title>
+    <style>
+        @page {{ size: letter; margin: 0.5in; }}
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Arial', sans-serif;
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: white;
+            color: #1a1a1a;
+        }}
+        .page {{
+            width: 100%;
+            height: 100%;
+            padding: 0.5in;
+        }}
+        .top-bar {{
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 18px 25px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+        }}
+        .top-bar-content {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }}
+        .logo {{
+            max-width: 130px;
+            height: auto;
+            filter: brightness(0) invert(1);
+        }}
+        .top-bar-text h1 {{
+            font-size: 24px;
+            margin-bottom: 4px;
+        }}
+        .top-bar-text p {{
+            font-size: 12px;
+            opacity: 0.95;
+        }}
+        .highlight-section {{
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+            border: 3px solid #ff6b35;
+        }}
+        .highlight-grid {{
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }}
+        .highlight-text h2 {{
+            color: #ff6b35;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }}
+        .highlight-text p {{
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }}
+        .satisfaction-badge {{
+            background: linear-gradient(135deg, #28a745, #20883a);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 14px;
+        }}
+        .product-highlight {{
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }}
+        .product-img {{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }}
+        .trust-badge {{
+            background: #ff6b35;
+            color: white;
+            padding: 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: bold;
+        }}
+        .testimonial-row {{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 18px;
+        }}
+        .testimonial {{
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }}
+        .stars {{
+            color: #ffc107;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }}
+        .quote {{
+            font-size: 11px;
+            font-style: italic;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 10px;
+            min-height: 65px;
+        }}
+        .author {{
+            font-size: 10px;
+            font-weight: bold;
+            color: #ff6b35;
+        }}
+        .role {{
+            font-size: 9px;
+            color: #999;
+        }}
+        .results-section {{
+            background: #1a1a1a;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }}
+        .results-section h3 {{
+            color: #ff6b35;
+            font-size: 18px;
+            margin-bottom: 12px;
+            text-align: center;
+        }}
+        .results-grid {{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }}
+        .result-item {{
+            background: rgba(255,255,255,0.1);
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }}
+        .result-value {{
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6b35;
+            display: block;
+            margin-bottom: 5px;
+        }}
+        .result-label {{
+            font-size: 10px;
+            color: #ccc;
+        }}
+        @media print {{
+            body {{ print-color-adjust: exact; -webkit-print-color-adjust: exact; }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <img src="data:image/png;base64,{logo_b64}" alt="HydroCav Logo" class="logo">
+                <div class="top-bar-text">
+                    <h1>Trusted by Thousands</h1>
+                    <p>Real customers. Real results. Real satisfaction.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight-section">
+            <div class="highlight-grid">
+                <div class="highlight-text">
+                    <h2>Customer-Proven Technology</h2>
+                    <p>HydroLoop isn't just innovative technology—it's a proven solution delivering measurable results for pool service companies, facility operators, and residential users worldwide.</p>
+                    <div class="satisfaction-badge">⭐ 99% Customer Satisfaction</div>
+                </div>
+                <div class="product-highlight">
+                    <img src="data:image/jpeg;base64,{product_b64}" alt="HydroLoop System" class="product-img">
+                    <div class="trust-badge">Thousands of Installations Worldwide</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-row">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"Game-changer for our service business. Clients love the water quality and we've slashed chemical costs by 80%."</div>
+                <div class="author">Robert M.</div>
+                <div class="role">Pool Service Professional</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"Installation was incredibly simple and the results were immediate. No more chlorine smell, crystal clear water."</div>
+                <div class="author">Linda S.</div>
+                <div class="role">Facility Manager</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"Worth every penny. Our hot tub maintenance went from hours to minutes, and the water has never looked better."</div>
+                <div class="author">James T.</div>
+                <div class="role">Homeowner</div>
+            </div>
+        </div>
+
+        <div class="testimonial-row">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"Eliminated our indoor pool's chlorine gas problem completely. Staff and swimmers are much happier."</div>
+                <div class="author">Maria G.</div>
+                <div class="role">Aquatic Director</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"The ROI was faster than promised. Lower chemicals, less maintenance, happier customers. Perfect solution."</div>
+                <div class="author">Tom W.</div>
+                <div class="role">Business Owner</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <div class="quote">"Finally achieved our goal of a truly chemical-free pool. The technology works exactly as advertised."</div>
+                <div class="author">Karen & Mike D.</div>
+                <div class="role">Residential Users</div>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <h3>Average Customer Results</h3>
+            <div class="results-grid">
+                <div class="result-item">
+                    <span class="result-value">80%+</span>
+                    <span class="result-label">Chemical Savings</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-value">90%+</span>
+                    <span class="result-label">Easier Maintenance</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-value">100%</span>
+                    <span class="result-label">Water Quality</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-value">6-12mo</span>
+                    <span class="result-label">Typical ROI</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

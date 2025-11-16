@@ -1,0 +1,26 @@
+{
+  "name": "hydrocav-trade-show-designs",
+  "version": "2.0.0",
+  "description": "TypeScript-based trade show design generator for HydroCav HydroLoop System",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "generate": "npm run build && node dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist output/*/*.html"
+  },
+  "keywords": [
+    "trade-show",
+    "design-generator",
+    "typescript",
+    "html-generator"
+  ],
+  "author": "HydroCav",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}

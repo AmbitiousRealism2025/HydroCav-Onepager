@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HydroLoop Trade Show Designs - Preview Gallery</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #1a1a1a;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 1.5rem;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat .number {
+      font-size: 2.5rem;
+      font-weight: 900;
+      display: block;
+    }
+
+    .stat .label {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .agent-section {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .agent-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 3px solid #667eea;
+    }
+
+    .agent-header h2 {
+      color: #667eea;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .agent-header p {
+      color: #64748b;
+      font-size: 1rem;
+    }
+
+    .designs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .design-card {
+      background: #f8fafc;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .design-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .design-preview {
+      width: 100%;
+      height: 400px;
+      background: white;
+      border-bottom: 3px solid #667eea;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .design-preview iframe {
+      width: 850px;
+      height: 1100px;
+      border: none;
+      transform: scale(0.35);
+      transform-origin: top left;
+      pointer-events: none;
+    }
+
+    .design-info {
+      padding: 1.5rem;
+    }
+
+    .design-info h3 {
+      color: #1a1a1a;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .design-info p {
+      color: #64748b;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .design-actions {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      display: inline-block;
+      text-align: center;
+      flex: 1;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #667eea;
+      border: 2px solid #667eea;
+    }
+
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      color: white;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    footer p {
+      opacity: 0.9;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>HydroLoop Trade Show Designs</h1>
+      <p>Round 2: TypeScript Edition with Modern CSS</p>
+      <div class="stats">
+        <div class="stat">
+          <span class="number">15</span>
+          <span class="label">Designs</span>
+        </div>
+        <div class="stat">
+          <span class="number">5</span>
+          <span class="label">Agents</span>
+        </div>
+        <div class="stat">
+          <span class="number">3</span>
+          <span class="label">Variants Each</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Agent 1: Technical Focus -->
+    <section class="agent-section">
+      <div class="agent-header">
+        <h2>Agent 1: Technical Focus</h2>
+        <p>Emphasizes product specifications, technical benefits, and engineering excellence</p>
+      </div>
+      <div class="designs-grid">
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Technical_Focus/variant_1_technical-focus.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 1: Technical Excellence</h3>
+            <p>Bold, minimal design showcasing HydroDynamic Cavitation technology with large product image</p>
+            <div class="design-actions">
+              <a href="Agent_Technical_Focus/variant_1_technical-focus.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Technical_Focus/variant_1_technical-focus.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Technical_Focus/variant_2_technical-focus.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 2: Technical Specifications</h3>
+            <p>Information-rich format with comprehensive technical details and performance metrics</p>
+            <div class="design-actions">
+              <a href="Agent_Technical_Focus/variant_2_technical-focus.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Technical_Focus/variant_2_technical-focus.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Technical_Focus/variant_3_technical-focus.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 3: Engineering Excellence</h3>
+            <p>Balanced layout highlighting technical features with creative product integration</p>
+            <div class="design-actions">
+              <a href="Agent_Technical_Focus/variant_3_technical-focus.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Technical_Focus/variant_3_technical-focus.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agent 2: Visual Impact -->
+    <section class="agent-section">
+      <div class="agent-header">
+        <h2>Agent 2: Visual Impact</h2>
+        <p>Prioritizes bold graphics, visual hierarchy, and eye-catching design</p>
+      </div>
+      <div class="designs-grid">
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Visual_Impact/variant_1_visual-impact.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 1: The Future Is Here</h3>
+            <p>Dramatic dark gradient background with bold typography and large hero product image</p>
+            <div class="design-actions">
+              <a href="Agent_Visual_Impact/variant_1_visual-impact.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Visual_Impact/variant_1_visual-impact.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Visual_Impact/variant_2_visual-impact.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 2: Revolutionary Technology</h3>
+            <p>Information-rich with strong visual hierarchy and modern card-based layout</p>
+            <div class="design-actions">
+              <a href="Agent_Visual_Impact/variant_2_visual-impact.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Visual_Impact/variant_2_visual-impact.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Visual_Impact/variant_3_visual-impact.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 3: Experience the Difference</h3>
+            <p>Asymmetric layout with gradient text and creative tilted product frame</p>
+            <div class="design-actions">
+              <a href="Agent_Visual_Impact/variant_3_visual-impact.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Visual_Impact/variant_3_visual-impact.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agent 3: Value Proposition -->
+    <section class="agent-section">
+      <div class="agent-header">
+        <h2>Agent 3: Value Proposition</h2>
+        <p>Focuses on ROI, cost savings, and business benefits</p>
+      </div>
+      <div class="designs-grid">
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Value_Proposition/variant_1_value-proposition.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 1: Maximize Your ROI</h3>
+            <p>Bold focus on cost savings with detailed savings breakdown and metrics</p>
+            <div class="design-actions">
+              <a href="Agent_Value_Proposition/variant_1_value-proposition.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Value_Proposition/variant_1_value-proposition.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Value_Proposition/variant_2_value-proposition.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 2: Business Case Analysis</h3>
+            <p>Comprehensive cost comparison with before/after analysis and value props</p>
+            <div class="design-actions">
+              <a href="Agent_Value_Proposition/variant_2_value-proposition.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Value_Proposition/variant_2_value-proposition.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Value_Proposition/variant_3_value-proposition.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 3: Smart Investment</h3>
+            <p>Balanced presentation highlighting proven returns and competitive advantage</p>
+            <div class="design-actions">
+              <a href="Agent_Value_Proposition/variant_3_value-proposition.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Value_Proposition/variant_3_value-proposition.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agent 4: Sustainability ESG -->
+    <section class="agent-section">
+      <div class="agent-header">
+        <h2>Agent 4: Sustainability & ESG</h2>
+        <p>Highlights environmental benefits, sustainability metrics, and ESG alignment</p>
+      </div>
+      <div class="designs-grid">
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Sustainability_ESG/variant_1_sustainability-esg.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 1: Sustainable by Design</h3>
+            <p>Green-themed design with ESG pillars and environmental impact metrics</p>
+            <div class="design-actions">
+              <a href="Agent_Sustainability_ESG/variant_1_sustainability-esg.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Sustainability_ESG/variant_1_sustainability-esg.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Sustainability_ESG/variant_2_sustainability-esg.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 2: Environmental Impact Report</h3>
+            <p>Comprehensive sustainability report format with detailed environmental benefits</p>
+            <div class="design-actions">
+              <a href="Agent_Sustainability_ESG/variant_2_sustainability-esg.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Sustainability_ESG/variant_2_sustainability-esg.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Sustainability_ESG/variant_3_sustainability-esg.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 3: Building a Sustainable Future</h3>
+            <p>Balanced eco-focused design with environmental stewardship messaging</p>
+            <div class="design-actions">
+              <a href="Agent_Sustainability_ESG/variant_3_sustainability-esg.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Sustainability_ESG/variant_3_sustainability-esg.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agent 5: Customer Success -->
+    <section class="agent-section">
+      <div class="agent-header">
+        <h2>Agent 5: Customer Success</h2>
+        <p>Features testimonials, case studies, and real-world applications</p>
+      </div>
+      <div class="designs-grid">
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Customer_Success/variant_1_customer-success.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 1: Real Results, Real Impact</h3>
+            <p>Bold testimonial focus with verified savings and customer satisfaction metrics</p>
+            <div class="design-actions">
+              <a href="Agent_Customer_Success/variant_1_customer-success.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Customer_Success/variant_1_customer-success.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Customer_Success/variant_2_customer-success.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 2: Customer Success Story</h3>
+            <p>Comprehensive case study format with challenges, solutions, and measurable results</p>
+            <div class="design-actions">
+              <a href="Agent_Customer_Success/variant_2_customer-success.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Customer_Success/variant_2_customer-success.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="design-card">
+          <div class="design-preview">
+            <iframe src="Agent_Customer_Success/variant_3_customer-success.html"></iframe>
+          </div>
+          <div class="design-info">
+            <h3>Variant 3: Trusted by Facilities Worldwide</h3>
+            <p>Multiple testimonials with trust indicators and community messaging</p>
+            <div class="design-actions">
+              <a href="Agent_Customer_Success/variant_3_customer-success.html" target="_blank" class="btn btn-primary">View Full</a>
+              <a href="Agent_Customer_Success/variant_3_customer-success.html" download class="btn btn-secondary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p><strong>HydroLoop Trade Show Design Generator</strong></p>
+      <p>TypeScript Edition with Modern CSS • 15 Print-Ready HTML Designs</p>
+      <p style="margin-top: 1rem; opacity: 0.8;">Generated with modern web technologies: TypeScript, CSS Grid, Flexbox, and Gradients</p>
+    </footer>
+  </div>
+</body>
+</html>

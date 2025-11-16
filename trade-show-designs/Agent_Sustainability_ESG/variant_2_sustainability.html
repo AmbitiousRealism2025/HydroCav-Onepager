@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroCav HydroLoop - ESG Leadership</title>
+    <style>
+        @page {{ size: letter; margin: 0.5in; }}
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Arial', sans-serif;
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: white;
+            color: #1a1a1a;
+        }}
+        .page {{
+            width: 100%;
+            height: 100%;
+            padding: 0.4in;
+        }}
+        .header-esg {{
+            background: linear-gradient(90deg, #2e7d32, #66bb6a);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }}
+        .logo {{
+            max-width: 130px;
+            height: auto;
+            filter: brightness(0) invert(1);
+        }}
+        .header-title {{
+            text-align: right;
+        }}
+        .header-title h1 {{
+            font-size: 20px;
+            margin-bottom: 4px;
+        }}
+        .header-title p {{
+            font-size: 11px;
+            opacity: 0.9;
+        }}
+        .main-layout {{
+            display: grid;
+            grid-template-columns: 1.4fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }}
+        .esg-pillars {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }}
+        .pillar-card {{
+            background: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            border-top: 4px solid #4caf50;
+        }}
+        .pillar-header {{
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        .pillar-content {{
+            padding: 12px 15px;
+        }}
+        .pillar-content ul {{
+            list-style: none;
+            padding: 0;
+        }}
+        .pillar-content li {{
+            font-size: 11px;
+            line-height: 1.5;
+            padding: 4px 0;
+            padding-left: 16px;
+            position: relative;
+        }}
+        .pillar-content li:before {{
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+            font-weight: bold;
+        }}
+        .product-panel {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }}
+        .product-image-box {{
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }}
+        .product-img {{
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }}
+        .green-badge {{
+            background: #4caf50;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: bold;
+            display: inline-block;
+        }}
+        .impact-box {{
+            background: white;
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+            padding: 12px;
+        }}
+        .impact-box h3 {{
+            color: #2e7d32;
+            font-size: 13px;
+            margin-bottom: 8px;
+            text-align: center;
+        }}
+        .impact-grid {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }}
+        .impact-stat {{
+            background: #e8f5e9;
+            padding: 8px;
+            border-radius: 4px;
+            text-align: center;
+        }}
+        .impact-number {{
+            font-size: 18px;
+            font-weight: bold;
+            color: #2e7d32;
+            display: block;
+        }}
+        .impact-label {{
+            font-size: 9px;
+            color: #666;
+        }}
+        .bottom-statement {{
+            background: #2e7d32;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }}
+        .bottom-statement h3 {{
+            font-size: 18px;
+            margin-bottom: 8px;
+        }}
+        .bottom-statement p {{
+            font-size: 11px;
+            line-height: 1.5;
+        }}
+        @media print {{
+            body {{ print-color-adjust: exact; -webkit-print-color-adjust: exact; }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header-esg">
+            <img src="data:image/png;base64,{logo_b64}" alt="HydroCav Logo" class="logo">
+            <div class="header-title">
+                <h1>ESG Leadership Through Innovation</h1>
+                <p>Environmental, Social & Governance Excellence</p>
+            </div>
+        </div>
+
+        <div class="main-layout">
+            <div class="esg-pillars">
+                <div class="pillar-card">
+                    <div class="pillar-header">🌍 Environmental Impact</div>
+                    <div class="pillar-content">
+                        <ul>
+                            <li><strong>75-90% Chemical Reduction:</strong> Massive decrease in chemical manufacturing demand and environmental burden</li>
+                            <li><strong>Chemical-Free Operation:</strong> World's first truly chemical-free saltwater pool system</li>
+                            <li><strong>Zero Toxic Emissions:</strong> Eliminates dangerous chlorine and trichloramine gas formation</li>
+                            <li><strong>Long-Term Durability:</strong> Premium materials reduce replacement cycles and waste</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-header">👥 Social Responsibility</div>
+                    <div class="pillar-content">
+                        <ul>
+                            <li><strong>Health & Safety:</strong> Eliminates exposure to hazardous chemicals and gases</li>
+                            <li><strong>Indoor Air Quality:</strong> Critical for facilities with enclosed pool areas</li>
+                            <li><strong>Accessibility:</strong> User-maintainable design empowers all stakeholders</li>
+                            <li><strong>Community Impact:</strong> Safer, healthier aquatic facilities for everyone</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-header">⚖️ Governance & Compliance</div>
+                    <div class="pillar-content">
+                        <ul>
+                            <li><strong>Patented Technology:</strong> Protected intellectual property and innovation</li>
+                            <li><strong>Safety Standards:</strong> Reduces liability and regulatory compliance burden</li>
+                            <li><strong>Transparent Benefits:</strong> Measurable environmental and operational improvements</li>
+                            <li><strong>Sustainable Leadership:</strong> Aligns with corporate sustainability goals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-panel">
+                <div class="product-image-box">
+                    <img src="data:image/jpeg;base64,{product_b64}" alt="HydroLoop System" class="product-img">
+                    <div class="green-badge">🌿 Sustainable Technology</div>
+                </div>
+
+                <div class="impact-box">
+                    <h3>Environmental Metrics</h3>
+                    <div class="impact-grid">
+                        <div class="impact-stat">
+                            <span class="impact-number">75-90%</span>
+                            <span class="impact-label">Lower Chemicals</span>
+                        </div>
+                        <div class="impact-stat">
+                            <span class="impact-number">Zero</span>
+                            <span class="impact-label">Toxic Gases</span>
+                        </div>
+                        <div class="impact-stat">
+                            <span class="impact-number">Years</span>
+                            <span class="impact-label">Long Lifespan</span>
+                        </div>
+                        <div class="impact-stat">
+                            <span class="impact-number">100%</span>
+                            <span class="impact-label">Chem-Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-statement">
+            <h3>Pioneering Sustainable Pool Sanitation</h3>
+            <p>HydroLoop establishes a new benchmark in environmental responsibility, combining controlled HydroDynamic Cavitation with premium engineering to deliver the definitive prevention solution for pool and hot tub maintenance.</p>
+        </div>
+    </div>
+</body>
+</html>

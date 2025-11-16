@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroCav HydroLoop - Real Results</title>
+    <style>
+        @page {{ size: letter; margin: 0.5in; }}
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Arial', sans-serif;
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: white;
+            color: #1a1a1a;
+        }}
+        .page {{
+            width: 100%;
+            height: 100%;
+            padding: 0.5in;
+        }}
+        header {{
+            text-align: center;
+            margin-bottom: 18px;
+        }}
+        .logo {{
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 12px;
+        }}
+        .hero-title {{
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 18px;
+        }}
+        .hero-title h1 {{
+            font-size: 36px;
+            margin-bottom: 8px;
+        }}
+        .hero-title p {{
+            font-size: 14px;
+        }}
+        .main-grid {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-bottom: 15px;
+        }}
+        .product-section {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }}
+        .product-img-container {{
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }}
+        .product-img {{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }}
+        .results-box {{
+            background: linear-gradient(135deg, #28a745, #20883a);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }}
+        .results-box h3 {{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }}
+        .results-stats {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }}
+        .stat-item {{
+            background: rgba(255,255,255,0.2);
+            padding: 10px;
+            border-radius: 6px;
+        }}
+        .stat-value {{
+            font-size: 22px;
+            font-weight: bold;
+            display: block;
+        }}
+        .stat-label {{
+            font-size: 10px;
+            opacity: 0.9;
+        }}
+        .testimonials {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }}
+        .testimonial-card {{
+            background: #f8f9fa;
+            border-left: 5px solid #ff6b35;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }}
+        .testimonial-quote {{
+            font-size: 13px;
+            font-style: italic;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }}
+        .testimonial-author {{
+            font-size: 11px;
+            color: #666;
+            font-weight: bold;
+        }}
+        .testimonial-role {{
+            font-size: 10px;
+            color: #999;
+        }}
+        .rating {{
+            color: #ffc107;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }}
+        .benefits-footer {{
+            background: #1a1a1a;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }}
+        .benefits-footer h3 {{
+            color: #ff6b35;
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: center;
+        }}
+        .benefits-grid {{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }}
+        .benefit-item {{
+            text-align: center;
+            font-size: 11px;
+        }}
+        .benefit-icon {{
+            font-size: 24px;
+            margin-bottom: 5px;
+        }}
+        @media print {{
+            body {{ print-color-adjust: exact; -webkit-print-color-adjust: exact; }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <img src="data:image/png;base64,{logo_b64}" alt="HydroCav Logo" class="logo">
+        </header>
+
+        <div class="hero-title">
+            <h1>Proven Results, Happy Customers</h1>
+            <p>Real-world success stories from HydroLoop installations</p>
+        </div>
+
+        <div class="main-grid">
+            <div class="product-section">
+                <div class="product-img-container">
+                    <img src="data:image/jpeg;base64,{product_b64}" alt="HydroLoop System" class="product-img">
+                </div>
+                <div class="results-box">
+                    <h3>Average Customer Results</h3>
+                    <div class="results-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">80%+</span>
+                            <span class="stat-label">Chemical Savings</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-quote">"The HydroLoop has completely transformed our pool maintenance. We've cut chemical costs by 85% and the water has never looked better. Installation was incredibly simple."</div>
+                    <div class="testimonial-author">Michael R.</div>
+                    <div class="testimonial-role">Pool Service Company Owner</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-quote">"As a facility manager, safety is my top priority. Eliminating chlorine gases has made a huge difference for our indoor pool. The ROI was immediate."</div>
+                    <div class="testimonial-author">Sarah L.</div>
+                    <div class="testimonial-role">Aquatic Facility Manager</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <div class="testimonial-quote">"Finally, a truly chemical-free hot tub experience! The water is crystal clear and we no longer have that harsh chemical smell. Best investment we've made."</div>
+                    <div class="testimonial-author">David & Jennifer K.</div>
+                    <div class="testimonial-role">Residential Hot Tub Owners</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="benefits-footer">
+            <h3>Why Customers Love HydroLoop</h3>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">💰</div>
+                    <div>Massive Cost Savings</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🌊</div>
+                    <div>Pristine Water Quality</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚡</div>
+                    <div>Simple Maintenance</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
